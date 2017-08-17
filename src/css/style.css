@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+    margin: 0px; 
+    font-family: 'Roboto', sans-serif;
+    background: #313844;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-59%);
+}
+
+
+
+#content > p, h1, h2, h3, h4, h5, span {
+    color: white;
+}
+
+#title {
+    position: fixed;
+    top: 0px;
+    left: 6px; 
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#content {
+    padding: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#title-bar {
+    position: fixed;
+    width: 100vw;
+    -webkit-app-region: drag;
+    background: #1B1E23;
+    min-height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 40px;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+#title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+}
+
+#title-bar-btns > i {
+    margin-right: 10px;
+    font-weight: 200;
+}
+
+#min-btn, #max-btn, #close-btn {
+    cursor: pointer;
+}
+
+canvas {
+    margin-top: 40px;
+}

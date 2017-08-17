@@ -1,0 +1,18 @@
+{
+    "name": "sprite-engine",
+    "version": "1.0.0",
+    "description": "a sprite engine in electron",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron index.js",
+        "package": "electron-packager . SpriteEngine --platform=win32 --arch=x64 --asar=true --overwrite"
+    },
+    "author": "Grey <luukwauben@hotmail.nl>",
+    "Licence": "Apache",
+    "devDependencies": {
+        "asar": "^0.12.3",
+        "electron": "^1.4.10",
+        "electron-packager": "^8.3.0"
+    },
+    "dependencies": {}
+}
